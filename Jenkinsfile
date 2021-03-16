@@ -11,7 +11,7 @@ checkout scm
 stage('Deploy APIC Services') {
 steps {
 script {
-sh "make deploy_api_service"
+echo 'make deploy_api_service'
 }
 }
 }
